@@ -39,7 +39,7 @@ aside {
     margin: 0 auto;
     border: 2px black;
     padding: 10px;
-    background-color: darkkhaki;
+    background-color: rgba(190, 156, 4, 0.795);
     color: black;
 }
 main img {
