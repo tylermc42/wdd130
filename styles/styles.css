@@ -17,36 +17,44 @@ nav a {
     text-align: center;
 }
 
-img {
+main {
+    text-align: center;
+    margin: auto;
+    max-width: 840px;
+}
+
+main img {
+    text-align: center;
     width: 150px;
+    margin: 0 auto;
+    border: 2px black;
+    padding: 2px;
+    background-color: bisque ;
+    color: black;
+}
+
+aside {
+    text-align: center;
+    width: 30rem;
+    margin: auto;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: darkkhaki;
+    color: black;
+
+}
+aside img {
+    width: 200px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-main {
-    text-align: center;
-    margin: auto;
-    width: 500px;
-}
+
 p {
     padding: 0;
 }
 
-aside {
-    text-align: center;
-    width: 500px;
-    margin: 0 auto;
-    border: 2px black;
-    padding: 10px;
-    border: 1px solid black;
-    background-color: rgba(190, 156, 4, 0.795);
-    color: black;
-}
-main img {
-    width: 200px;
-    height: auto;
-}
 
 footer {
     Text-align: center;
