@@ -30,7 +30,7 @@ main {
     width: 500px;
 }
 p {
-    padding: 0px;
+    padding: 0;
 }
 
 aside {
@@ -39,6 +39,7 @@ aside {
     margin: 0 auto;
     border: 2px black;
     padding: 10px;
+    border: 1px solid black;
     background-color: rgba(190, 156, 4, 0.795);
     color: black;
 }
