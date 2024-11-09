@@ -1,19 +1,22 @@
-nav {
-    background-color: darkblue;
+header {
+    background-color: rgba(139, 9, 0, 0.815);
     padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: darkgrey;
 }
 nav a {
     color: white;
     display: block;
-    padding: 20px;
-}
-header {
-    color: darkblue;
-}
-header a {
+    padding: 10px;
     display: inline-block;
     margin: auto;
+    text-align: center;
 }
+
 img {
     width: 150px;
     height: auto;
@@ -24,19 +27,18 @@ img {
 main {
     text-align: center;
     margin: auto;
+    width: 500px;
 }
 p {
     padding: 0px;
 }
-main {
-    width: 500px;
-}
+
 aside {
     text-align: center;
     width: 500px;
     margin: 0 auto;
     border: 2px black;
-    padding: 50px;
+    padding: 10px;
     background-color: darkkhaki;
     color: black;
 }
@@ -47,6 +49,7 @@ main img {
 
 footer {
     Text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
     border-top: 1px solid black;
+    background-color: white;
 }
