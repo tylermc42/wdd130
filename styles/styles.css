@@ -5,6 +5,9 @@
 
 * {
     font-family: var(--text-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -30,46 +33,52 @@ nav a {
     text-align: center;
 }
 
-main {
-    text-align: center;
-    margin: auto;
-    height: 350px;
-    width: auto;
-    border: var(--border);
-    background-color: grey  ;
+body {
+    background-color: grey;
 }
 
-h1 {
-    text-align: center;
+main {
+    text-align: left;
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+main p {
+    padding: 3rem;
 }
 
 main img {
+    float: right;
     width: 150px;
-    margin: 0 auto;
+    margin: 1rem;
+    box-shadow: 0 0 30px;
     border: var(--border);
-    padding: 1px;
-    background-color: bisque ;
     color: black;
 }
 
 aside {
-    text-align: center;
-    margin: auto;
-    height: 400px;
-    border: var(--border);
+    position: relative;
+    width: 400px;
+    height: auto;
     background-color: darkkhaki;
     color: black;
-
 }
+
+aside p {
+    padding: 2rem;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    right: 160px;
+}
+
 aside img {
+    text-align: center;
     width: 200px;
-    border: var(--border);
-    padding: 2px;
     box-shadow: 0 0 30px gray;
-}
-
-p {
-    padding: 0px;
 }
 
 
@@ -79,4 +88,19 @@ footer {
     margin-top: 10px;
     border-top: var(--border);
     background-color: white;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: var(--border);
+    padding: 1rem;
+    font-family: var(--text-font);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
