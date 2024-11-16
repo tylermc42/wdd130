@@ -1,0 +1,126 @@
+:root {
+    --primary-color: #1C629C;
+    --secondary-color:#867D7D;
+    --accent1-color:#C8C2C4;
+    --accent2-color:#D9C882;
+    --header-font:'Sour Gummy', sans-serif;
+    --text-font:'Edu Australia VIC WA NT Hand Precursive', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header div {
+    position: relative;
+}
+
+header nav {
+    position: absolute;
+    top: 65px;
+    left: 100px;
+    display: inline-block;
+    margin: auto;
+}
+
+header nav a {
+    text-decoration: none;
+    padding-right: 80px;
+    font-family:var(--header-font);
+    font-size: larger;
+}
+
+main {
+    background-color: var(--primary-color);
+}
+
+.hero h1 {
+    position: absolute;
+    text-align: center;
+    font-family: var(--header-font);
+    font-size: 60px;
+    color:var(--accent2-color);
+    font-style: italic;
+    top: 20px;
+    left: 400px;
+}
+
+.hero {
+    position: relative;
+    height: 1050px;
+}
+.hero img {
+    display: block;
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border:solid var(--accent1-color) 3px;
+}
+
+h2, article p {
+    position: relative;
+    top: 90px;
+    text-align: center;
+    font-style: italic;
+    text-align: center;
+    width: 40%;
+    color: var(--accent2-color);
+    line-height: 1.6;
+}
+
+h2 {
+    font-family: var(--header-font);
+}
+
+p {
+    font-family: var(--text-font);
+}
+
+.history {
+    text-align: center;
+    background-color: var(--secondary-color);
+    height: 400px;
+}
+
+.history aside {
+    position: relative;
+    top: 130px;
+    line-height: 1.6;
+    font-size: larger;
+}
+
+.pictures h3 {
+    padding-top: 20px;
+    font-size: xx-large;
+    color: var(--accent2-color);
+    font-family: var(--header-font);
+    text-align: center;
+    font-style: italic;
+}
+.pictures img {
+    border: solid var(--accent1-color);
+    height: 400px;
+    width: 400px;
+}
+
+.center {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    border-top: 1px solid #000;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    padding-bottom: 10px;
+}
