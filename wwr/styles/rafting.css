@@ -60,7 +60,7 @@ main {
     border:solid var(--accent1-color) 3px;
 }
 
-h2, article p {
+article h2, article p {
     position: relative;
     top: 90px;
     text-align: center;
@@ -92,7 +92,7 @@ p {
     font-size: larger;
 }
 
-.pictures h3 {
+.pictures h2 {
     padding-top: 20px;
     font-size: xx-large;
     color: var(--accent2-color);
