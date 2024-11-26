@@ -13,8 +13,7 @@
 }
 
 header {
-    display: grid;
-    grid-template-columns: 120px 1;
+    display: flex;
     align-items: center;
 }
 
@@ -57,6 +56,7 @@ h1 {
     color: var(--accent2-color);
     padding-bottom: 1rem;
     font-family: var(--header-font);
+    font-size: 50px;
 }
 
 h2 {
@@ -70,7 +70,8 @@ p {
 .hero {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    /*Delete following after new week 3 grade*/
+    position: relative;
 
 }
 
@@ -84,10 +85,11 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: stretch;
-    padding: 1rem;
     align-items: center;
     background-color: var(--secondary-color);
-    margin: 1rem;
+    /*Remove following code after new assignment is graded */
+    position: absolute;
+    bottom: 1px;
 
 }
 
@@ -97,6 +99,7 @@ p {
 }
 
 .purpose-image {
+    padding: 1rem;
     width: auto;
 }
 
@@ -105,7 +108,7 @@ p {
     border: 1px solid black;
     margin: 1rem;
     background-color: var(--accent2-color);
-    height: 15rem;
+    height: auto;
     padding-top: 1rem;
 }
 
