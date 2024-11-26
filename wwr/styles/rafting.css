@@ -36,6 +36,10 @@ main {
     background-color: var(--primary-color);
 }
 
+.hero {
+    position: relative;
+}
+
 .hero h1 {
     position: absolute;
     text-align: center;
@@ -44,32 +48,49 @@ main {
     color:var(--accent2-color);
     font-style: italic;
     top: 20px;
-    left: 400px;
+    left: 600px;
 }
 
-.hero {
-    position: relative;
-    height: 1050px;
-}
-.hero img {
-    display: block;
-    float: right;
-    width: auto;
+.hero nav img {
+    float: top;
+    width: 60%;
     height: auto;
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     border:solid var(--accent1-color) 3px;
 }
 
-article h2, article p {
+.hero article img {
     position: relative;
-    top: 90px;
+    float: left;
+}
+
+.hero article h2 {
+    position: absolute;
+    top: 740px;
+    left: 500px;
     text-align: center;
     font-style: italic;
     text-align: center;
-    width: 40%;
-    color: var(--accent2-color);
+    width: 10%;
+    color: black;
     line-height: 1.6;
+    background-color: white;
 }
+
+article p{
+    position: absolute;
+    top: 775px;
+    left: 500px;
+    text-align: center;
+    font-style: italic;
+    text-align: center;
+    width: 10%;
+    color: black;
+    font-weight: bolder;
+    line-height: 1.6;
+    background-color: white;
+ }
 
 h2 {
     font-family: var(--header-font);
@@ -80,13 +101,16 @@ p {
 }
 
 .history {
+    position: relative;
+    clear: both;
     text-align: center;
     background-color: var(--secondary-color);
     height: 400px;
+    
 }
 
 .history aside {
-    position: relative;
+    position: absolute;
     top: 130px;
     line-height: 1.6;
     font-size: larger;
