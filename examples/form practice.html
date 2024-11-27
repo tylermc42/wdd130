@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Page Title</title>
+        <meta name="form practice" content="practicing the form elements">
+        <meta name="author" content="Tyler McCleve">
+    </head>
+    <body>
+      <form>
+        <div>
+            <label for='fname'>First name:</label><br>
+            <input type='text' id='fname' name="fname" placeholder="Spongebob" required>
+        </div>
+        <div>
+            <label for='lname'>Last name:</label><br>
+            <input type='text' id='lname' name="lname" placeholder="bob" required>
+        </div>
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" maslength="12" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+        </div>
+        <div>
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+        <div>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+        </div>
+        <div>
+            <label for="title">Title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" name="title" value="Mr.">
+            
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" name="title" value="Mrs.">
+            
+            <label for="PhD.">PhD.</label>
+            <input type="radio" name="title" value="PhD.">
+        </div>
+        <div>
+           <label for="payment" >Payment type</label>
+           <select id="payment" name="payment">
+                <option value="Visa">Visa</option>
+                <option value="mastercard">Mastercard</option>>
+                <option value="giftcard">Giftcard</option>
+           </select>
+        </div>
+        <div>
+            <label for="subscribe">Subscribe?</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </div>
+        <div> 
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label>
+        </div><br>
+        <div class="reset">
+            <input type="Reset">
+        </div><br>
+        <div class="submit">
+            <input type="Submit">
+        </div>
+    </form>
+    </body>
+</html>
