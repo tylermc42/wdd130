@@ -283,18 +283,3 @@ input[type="checkbox"] {
     height: 20px;
     vertical-align: center;
 }
-
-
-
-.submit {
-    text-align: center;
-    margin: 1rem;
-    border: none;
-    color: grey;
-    border-radius: .5rem;
-    width: 5rem;
-}
-
-.submit:hover {
-    background-color: blue;
-}
