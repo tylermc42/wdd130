@@ -6,6 +6,10 @@
         <title>Page Title</title>
         <meta name="subtitle here" content="description here">
         <meta name="author" content="Tyler McCleve">
+        <link rel="stylesheet" href="styles\poll-form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Sour+Gummy:wght@100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -15,23 +19,31 @@
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <label for="fullname">Full Name: </label>
-                    <input type="text" id="fullname" name="fullname"><br><br>
-                    <label for="useremail">Email:</label>
-                    <input type="email" id="useremail" name="useremail">
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name: </label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Spongebob Squarepants"><br><br>
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail" placeholder="example@gmail.com">
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Questions</legend>
-                    <label>What is your favorite browser?</label>
-                    <select id="browser" name="browser">
-                        <option value="blank">other</option>
-                        <option value="chrome">Chrome</option>
-                        <option value="explorer">Explorer</option>
-                        <option value="google">Google</option>
-                        <option value="brave">Brave</option>
-                    </select><br><br>
-                    <label for="pet">Do you have a household pet?</label>
-                    <input type="checkbox" id="pet" name="pet"><br><br>
+                    <div class="form-item column1">
+                        <label>What is your favorite browser?</label>
+                        <select id="browser" name="browser">
+                            <option value="blank">other</option>
+                            <option value="chrome">Chrome</option>
+                            <option value="explorer">Explorer</option>
+                            <option value="google">Google</option>
+                            <option value="brave">Brave</option>
+                        </select><br><br>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet"><br>
+                    </div>
                     <label for="feedback">List the places you have lived.</label>
                     <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Gilbert Arizona"></textarea>
                 </fieldset><br>
